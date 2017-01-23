@@ -661,7 +661,8 @@ def Main():
                     logging.info("Scheduled Time Lapse Image - daymode=%s", daymode)
                     imagePrefix = timelapsePrefix + imageNamePrefix
                     filename = getImageName(timelapsePath, imagePrefix, timelapseNumOn, timelapseNumCount)
-                    if daymode:
+                    #if daymode: bodge to get this to work
+                    if True:
                         takeDayImage(filename)
                     else:
                         takeNightImage(filename)
