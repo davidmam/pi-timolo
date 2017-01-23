@@ -8,7 +8,7 @@ configName = "pi-timolo-default-config"
 
 # These settings should both be False if this script is run as a background /etc/init.d daemon
 verbose = True             # Sends detailed logging info to console. set to False if running script as daeman
-logDataToFile = True      # logs diagnostic data to a disk file for review  default=False
+logDataToFile = False      # logs diagnostic data to a disk file for review  default=False
 debug = False              # Puts in debug mode returns pixel average data for tuning
 
 # print a test image
