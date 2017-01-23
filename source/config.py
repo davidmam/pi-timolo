@@ -69,7 +69,7 @@ timelapseTimer = 60    # Seconds between timelapse images  default=5*60
 timelapseDir = "timelapse" # Storage Folder for Time Lapse Images
 timelapsePrefix = "tl-"    # Prefix timelapse images with this prefix
 timelapseExit = 0 * 60     # Will Quit program after specified seconds 0=Continuous  default=0
-timelapseNumOn = True      # True=On (filenames Sequenced by Number) otherwise date/time used for filename
+timelapseNumOn = False      # True=On (filenames Sequenced by Number) otherwise date/time used for filename
 timelapseNumStart = 1000   # Start of timelapse number sequence 
 timelapseNumMax = 2000     # Max number of timelapse images desired. 0=Continuous  default=2000
 timelapseNumRecycle = True # After numberMax reached restart at numberStart instead of exiting default=True   
