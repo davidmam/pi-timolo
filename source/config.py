@@ -64,8 +64,8 @@ createLockFile = False     # default=False if True then sync.sh will call gdrive
                            # Lock File is used to indicate motion images are added so sync.sh can sync in background via sudo crontab -e 
 
 # Time Lapse Settings
-timelapseOn = False        # Turns timelapse True=On  False=Off
-timelapseTimer = 5 * 60    # Seconds between timelapse images  default=5*60
+timelapseOn = True        # Turns timelapse True=On  False=Off
+timelapseTimer = 60    # Seconds between timelapse images  default=5*60
 timelapseDir = "timelapse" # Storage Folder for Time Lapse Images
 timelapsePrefix = "tl-"    # Prefix timelapse images with this prefix
 timelapseExit = 0 * 60     # Will Quit program after specified seconds 0=Continuous  default=0

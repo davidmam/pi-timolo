@@ -34,7 +34,7 @@ image_frame_height = "100%"    # Desired frame height to display images. Scroll 
 image_max_listing = 0          # 0 = All or Specify Max right side file entries to show (must be > 1)
 
 # Web Server settings
-web_server_root = "motion"    # webserver root path to webserver image folder
+web_server_root = "timelapse"    # webserver root path to webserver image folder
 web_server_port = 8080        # Web server access port eg http://192.168.1.100:8090
 web_page_title = "Pi-Timolo Motion Images"     # web page title that browser show (not displayed on web page)
 web_page_refresh_on = True    # False=Off (never)  Refresh True=On (per seconds below)       
